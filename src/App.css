@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  margin-left: 0 !important;
+}
+
+.last {
+  margin-right: 0 !important;
+}
+
+.active-category {
+  color: #5b5b5b;
+}
+
+.active-page {
+  border-bottom: solid 2px;  
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.5s;
+
+}
+
+a:hover {
+  color: #5b5b5b
+}
